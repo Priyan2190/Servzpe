@@ -177,7 +177,9 @@ body {
     font-family: "Ubuntu", sans-serif;
 } */
 
-@media (max-width:900px) {
+
+
+@media (max-width:800px) {
 
     #nav {
         height: 7vh;
@@ -260,6 +262,107 @@ body {
         #right img {
             width: 99%;
             height: 80%;
+            rotate: 3deg;
+
+
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+}
+
+@media (max-width:900px) {
+
+    #nav {
+        height: 8vh;
+        width: 55vw;
+        padding: 2vh 3vh;
+
+    }
+
+    #nav button {
+        background-color: black;
+        color: white;
+        border-radius: 1vh;
+        height: 4vh;
+        width: 20vw;
+        font-size: 2vh;
+        font-weight: 500;
+    }
+
+    #centre {
+        #left {
+            width: 65%;
+            padding: 2vh 2vh;
+        }
+
+        #left h1 {
+            font-size: 7vh;
+            font-weight: 800;
+            font-family: "Ubuntu", sans-serif;
+            line-height: 8vh;
+        }
+
+        #left h1 a {
+            text-decoration: none;
+            color: blueviolet;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 900;
+            font-size: 8vh;
+        }
+
+        #left h3 {
+            margin-top: 3vh;
+            font-size: 4vh;
+            font-weight: 300;
+            line-height: 5vh;
+            text-align: left;
+            font-family: "Ubuntu", sans-serif;
+
+        }
+
+        #join {
+            margin-top: 6vh;
+            background-color: white;
+            color: black;
+            border-radius: 4vh;
+            height: 10vh;
+            width: 26vh;
+            padding: 3vh;
+
+        }
+
+        #join h2 {
+
+            text-align: center;
+            font-size: 3.5vh;
+            font-weight: 600;
+            font-family: "Ubuntu", sans-serif;
+
+        }
+
+        #right {
+            width: 45%;
+            height: 100%;
+
+
+
+
+
+        }
+
+        #right img {
+            width: 80%;
+            height: 90%;
             rotate: 3deg;
 
 
@@ -399,7 +502,7 @@ body {
 }
 
 
-@media(max-width:900px) {
+@media(max-width:800px) {
 
 
     .main {
@@ -549,6 +652,156 @@ body {
 
 }
 
+@media(max-width:900px) {
+
+
+    .main {
+        height: 300%;
+        width: 100%;
+        background-image: linear-gradient(#050404, #2A1B85);
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .one {
+        height: 100vh;
+        width: 100%;
+        margin-top: 2vh;
+        padding: 5vh 5vh;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    #page_c {
+        height: 60%;
+        width: 100%;
+
+    }
+
+    #page_c h1 {
+        font-family: "Ubuntu", sans-serif;
+        color: white;
+        font-size: 8vh;
+        font-weight: 600;
+        line-height: 10vh;
+        text-align: left;
+    }
+
+    #page_c p {
+        padding: 2.5vh 0;
+        color: rgb(160, 156, 156);
+        font-size: 4vh;
+        line-height: 6vh;
+        text-align: left;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 600;
+
+
+    }
+
+    #card {
+        margin: auto;
+
+        width: 60%;
+        height: 35%;
+        background-color: yellow;
+        display: flex;
+        border-radius: 4vh;
+    }
+
+    #main_c {
+        width: 60%;
+        height: 100%;
+        background-color: #F3D533;
+        padding: 3vh 2.5vh;
+        border-top-left-radius: 4vh;
+        border-bottom-left-radius: 4vh;
+
+    }
+
+    #main_c h2 {
+        font-size: 4vh;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 5vh;
+        text-align: left;
+    }
+
+    #main_c p {
+        padding: 3vh 0vh;
+        line-height: 3vh;
+        font-weight: 600;
+        font-size: 3vh;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    #join_c {
+        margin: auto;
+        height: 5vh;
+        background-color: white;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+
+
+    }
+
+    #join_c h5 {
+        font-size: 2.6vh;
+        padding: 1vh;
+
+
+    }
+
+    #second {
+        width: 40%;
+        height: 100%;
+
+    }
+
+    #second img {
+        height: 100%;
+        width: 100%;
+        border-top-right-radius: 4vh;
+        border-bottom-right-radius: 4vh;
+
+    }
+
+    #page_c #small {
+        padding: 2vh 0;
+        color: rgb(160, 156, 156);
+        font-weight: 600;
+        line-height: 5vh;
+        text-align: left;
+        font-family: "Ubuntu", sans-serif;
+
+        font-size: 3.5vh;
+    }
+
+    #main_c #that{
+        font-size: 3.8vh;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 3vh;
+        text-align: left;
+
+    }
+
+
+
+
+}
+
 
 #unlock {
     height: 100%;
@@ -603,7 +856,7 @@ body {
 
 }
 
-@media(max-width:900px){
+@media(max-width:800px){
     
 
 #unlock {
@@ -775,7 +1028,7 @@ body {
 
     height: 70%;
 }
-@media(max-width:900px){
+@media(max-width:800px){
 
     
 #end {
