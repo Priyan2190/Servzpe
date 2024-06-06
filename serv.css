@@ -177,7 +177,7 @@ body {
     font-family: "Ubuntu", sans-serif;
 } */
 
-@media (max-width:600px) {
+@media (max-width:900px) {
 
     #nav {
         height: 7vh;
@@ -399,7 +399,7 @@ body {
 }
 
 
-@media(max-width:600px) {
+@media(max-width:900px) {
 
 
     .main {
@@ -603,7 +603,7 @@ body {
 
 }
 
-@media(max-width:600px){
+@media(max-width:900px){
     
 
 #unlock {
@@ -775,7 +775,7 @@ body {
 
     height: 70%;
 }
-@media(max-width:600px){
+@media(max-width:900px){
 
     
 #end {
